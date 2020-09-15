@@ -2,11 +2,15 @@
 
 A Flutter Package that queries posts from a group to be used in your Flutter app. This is done without the aid of Facebook API, so no worrying of registration and limitations.
 
+Credits to ayob#4578 (Discord) for writing the core logic of the package.
+
+
 ## Using
 
 You can either wrap the method callback inside a future, to call the method. Or build up a custom Widget Tree to get the Posts.
 
 The method **getFbData()** returns a list of **"FbPost"** Object. The Object has two properties, namely a title of the Post and a List of URL's of type String. It has the Pictures posted along with post.
+
 
 ```dart
 // the FbPost Class for reference
