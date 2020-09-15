@@ -28,10 +28,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   FacebookPost fbp = FacebookPost();
   var myPost = [];
-  @override
-  void initState() {
-    super.initState();
-  }
 
   void getFbPosts() async {
     myPost = await fbp.getFbData('https://www.facebook.com/CBVpost/posts');
