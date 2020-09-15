@@ -1,7 +1,7 @@
 name: facebook_posts
 description: A Flutter package that allows querying for facebook posts without using facebook API.
-version: 0.0.1
-author: Haany Ali<asterp04@gmail.com>
+version: 0.0.1+1
+# author: Haany Ali<asterp04@gmail.com>
 homepage: https://github.com/MarikIshtar007/facebook_posts.git
 
 environment:

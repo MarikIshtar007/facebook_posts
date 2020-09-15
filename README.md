@@ -1,6 +1,6 @@
 # facebook_posts
 
-A Flutter Package that queries posts from a group to be used in your Flutter app. This is done without the aid of Facebook API, so no worrying of registration and limitations.
+A Flutter Package that queries posts from a facebook page to be used in your Flutter app. This is done without the aid of Facebook API, so no worrying of registration and limitations.
 
 Credits to ayob#4578 (Discord) for writing the core logic of the package.
 
