@@ -8,6 +8,18 @@ You can either wrap the method callback inside a future, to call the method. Or 
 
 The method **getFbData()** returns a list of **"FbPost"** Object. The Object has two properties, namely a title of the Post and a List of URL's of type String. It has the Pictures posted along with post.
 
+```dart
+// the FbPost Class for reference
+class FbPost {
+
+  String title;
+
+  List<String> imagesUrl;
+
+  FbPost({this.title, this.imagesUrl});
+}
+```
+
 ## Example
 
 You can get the posts in an async method as shown below.
